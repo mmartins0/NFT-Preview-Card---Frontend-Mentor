@@ -1,0 +1,62 @@
+@media screen and (max-width: 540px) {
+    .view {
+        width: 375px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .view {
+        width: 1440px;
+    }
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+
+}
+h1{
+  color: hsl(0, 0%, 100%);
+}
+h1 a:hover{
+  color: hsl(178, 100%, 50%);
+}
+hr{
+  border-style: solid none none;
+  color: hsl(215, 32%, 27%);
+}
+.card{
+
+  background-color: hsl(216, 50%, 16%);
+
+}
+
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImgBox {
+  position: absolute;
+  display: none;
+
+}
+
+.imageBox:hover .hoverImgBox {
+  display: block;
+}
+
+.price{
+  color: hsl(178, 100%, 50%);
+}
+.time{
+  color: hsl(215, 51%, 70%);
+}
+
+.name{
+  color: hsl(0, 0%, 100%);
+}
+.name hover:hover{
+  color: hsl(178, 100%, 50%);
+}
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
