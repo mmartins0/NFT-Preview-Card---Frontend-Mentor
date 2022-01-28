@@ -1,0 +1,63 @@
+
+
+body{
+  background-color: hsl(217, 54%, 11%);
+font-family: 'Outfit', sans-serif;
+}
+
+h1 a:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+hr{
+  border-style: solid none none;
+  color: hsl(215, 32%, 27%);
+}
+
+p{
+  font-size: 18px;
+}
+.card{
+width: auto;
+position: relative;
+left: auto;
+  background-color: hsl(216, 50%, 16%);
+
+}
+
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImgBox {
+  position: relative;
+  display: none;
+
+}
+
+.imageBox:hover .hoverImgBox {
+  display: block;
+}
+
+.hoverh1{
+    color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+.price{
+  color: hsl(178, 100%, 50%);
+}
+.time{
+  color: hsl(215, 51%, 70%);
+}
+
+.hover{
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+.hover:hover{
+  color: hsl(178, 100%, 50%);
+}
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
