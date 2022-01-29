@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -11,33 +12,36 @@
   <title>Frontend Mentor | NFT preview card component</title>
 
 </head>
+
 <body>
-<div class="card">
-  <div class="imageBox">
-    <div class="imageInn">
-      <img src="images/image-equilibrium.jpg" alt="nft">
-    </div>
-    <div class="hoverImgBox">
-    <img src="images/icon-view.svg" alt="hoverview">
-    </div>
-
-  </div>
-  <h1><a class="hoverh1" href="#">  Equilibrium #3429</a></h1>
-
-  <h2>  Our Equilibrium collection promotes balance and calm.</h2>
-<img src="images/icon-ethereum.svg" alt="eth-icon">
-  <p class="price">0.041 ETH</p>
-<img src="images/icon-clock.svg" alt="time-icon">
-  <p class="time">3 days left</p>
-  <hr>
-  <img src="images/image-avatar.png" alt="avatar-icon">
-  <p class="creation">Creation of <span><a class="hover" href="#">Mia Martins</a></span></p>
-</div>
-
-
-  <div class="attribution">
+  <main>
+    <div class="card">
+      <div class="image-box">
+        <img class="main-image" src="images/image-equilibrium.jpg" alt="nft">
+        <div class="overlay-image-box"></div>
+          <img class="view-icon" src="images/icon-view.svg" alt="view-icon">
+        </div>
+      <div class="text-container">
+        <h1>Equilibrium #3429</h1>
+        <p class="description"> Our Equilibrium collection promotes balance and calm.</p>
+        <div class="eth-info">
+          <div class="info">
+            <img class="eth-icon" src="images/icon-ethereum.svg" alt="ETH-icon"><span class="price">0.041 ETH</span>
+          </div>
+          <div class="info">
+            <img class="time-icon" src="images/icon-clock.svg" alt="time-icon"><span class="time">3 days left</span>
+          </div>
+          <div class="creation-info">
+            <img class="avatar" src="images/image-avatar.png" alt="avatar-icon">
+            <p class="creation-text">Creation of <span class="creation-name">Jules Wyvern</span></p>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/mmartins0">Mia Martins</a>.
-  </div>
+  </footer>
 </body>
+
 </html>
